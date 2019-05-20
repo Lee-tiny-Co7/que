@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-body { 
-    font-family:"微软雅黑"; 
+body {
+    font-family:"微软雅黑";
     font-size:16px; 
     color: #673929;
 }
@@ -11,24 +11,24 @@ body {
     margin:0 auto; 
     width:900px;    
 }
-#header { 
+#header {
     height:220px;/*必须添加，否则header下面有10px而不是5px空白*/
     margin-bottom:5px;
     position:relative; /*父层定位*/
 }
 
-#icon-list{
-    position:absolute;/*子层定位*/
-    top:170px;
-    right: 30px;
-    width: 130px;
-    height: 30px;   
-    font-size: 0px;
+/*#icon-list{*/
+    /*position:absolute;/*子层定位*/*/
+    /*top:170px;*/
+    /*right:30px;*/
+    /*width:130px;*/
+    /*height:30px;   */
+    /*font-size:0px;*/
     /*background: white;*/
-}
-#icon-list img{
-    margin-left:5px;
-}
+/*}*/
+/*#icon-list img{*/
+    /*margin-left:5px;*/
+/*}*/
 #nav{ 
     height:30px;    
     margin-bottom:5px;
@@ -61,10 +61,10 @@ a:active{
 #aside { 
     float:left; 
     width:300px; 
-    background:#6cf;
+ /*   background:#6cf;*/
     text-align: center;
     font-size: 14px;
-    color: #000;
+   /* color: #000;*/
 }
 #aside h2{
     margin: 20px;
@@ -117,7 +117,7 @@ a:active{
     float:right; 
     width:595px; 
     margin-bottom:5px;
-    background:#cff;
+/*    background:#cff;*/
 }
 .subcont{
     width: 570px;
@@ -141,21 +141,21 @@ a:active{
 .subcont p{ 
     font:16px/2em 微软雅黑;
 }
-#footer { 
+/*#footer { 
     height:60px; 
-    line-height: 60px;
+    line-height:60px;
     background:#6cf;
     clear:both; /*新加代码*/
-    margin-top: 5px;
-    text-align: center;
-}
+    margin-top:5px;
+    text-align:center;
+}*/
 
 #l-fix{
-    position: fixed;
+    position:fixed;
     top:100px;
     left:5px;
 }
 #l-fix img{
-    height: 100px;
-    width: 100px;
+    height:100px;
+    width:100px;
 }
